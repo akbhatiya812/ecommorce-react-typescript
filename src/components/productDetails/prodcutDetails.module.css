@@ -1,0 +1,11 @@
+.cont{
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.para{
+    margin: 2rem 0;
+}

@@ -1,0 +1,48 @@
+.navbarContainer{
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    height: 80px;
+}
+
+.logoCont{
+    width: 150px;
+}
+
+.menuCont{
+    list-style: none;
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuCont li{
+    position: relative;
+}
+
+.icons{
+    font-size:1.8rem;
+}
+
+.cartCountCont{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 0.7rem;
+    text-align: center;
+    background-color: rgb(199, 88, 88);
+    color: white;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userImg{
+    width: 2rem;
+    border-radius: 50%;
+}
