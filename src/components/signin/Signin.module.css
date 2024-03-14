@@ -1,0 +1,36 @@
+.signInPageCont{
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: relative;
+}
+
+.signInCont{
+    width: 500px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signInBtn{
+    padding: 20px;
+    border: none;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.googleIcon{
+    width: 1.4rem;
+}
