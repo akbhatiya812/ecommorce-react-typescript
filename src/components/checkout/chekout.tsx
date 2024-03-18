@@ -92,7 +92,8 @@ const Checkout = () => {
                     email: user?.email,
                     orderAmount: order.amount,
                     firstName: order.firstName,
-                    lastName : order.lastName
+                    lastName : order.lastName,
+                    order:order
                 })
                 navigate('/');
                 emptyCart();
