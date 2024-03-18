@@ -1,0 +1,60 @@
+.cont{
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.productDetailCont{
+    width: 40%;
+    min-width: 350px;
+    
+}
+
+.productTitle{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+    color: #2c2c2c;
+}
+
+.desc{
+    margin-bottom: 1rem;
+    font-family: 'Lato',sans-serif;
+    color: #444;
+}
+
+.discountCont{
+    margin: 1rem 0;
+}
+
+.discountSpan{
+    background-color: #CC0C39;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin:2rem 0;    
+}
+
+.price{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+.mrp{
+    color: #999;
+    text-decoration: line-through;
+}
+
+.sellPrice{
+    color: #2c2c2c;
+}
+
+.addToCart{
+    padding: 10px 20px;
+    width: 200px;
+    font-size:1.2rem;
+    background-color: white;
+    border: 1px solid #3c3c3c;
+    margin: 1rem 0;
+}
