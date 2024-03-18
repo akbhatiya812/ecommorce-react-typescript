@@ -3,8 +3,6 @@ import style from './checkout.module.css';
 import { AuthContextType, useAuth} from '../../contexts/AuthContext';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { CartContextType, CartType, useCart } from '../../contexts/CartContext';
-import { db } from '../../configs/firebase';
-import { collection,addDoc } from 'firebase/firestore';
 import { toast } from 'react-toastify';
 import axios from 'axios';
 
@@ -86,8 +84,6 @@ const Checkout = () => {
         const addOrder = async () => {
             try{
                 setIsSubmitting(true);
-                const orderCollection = collection(db, 'orders');
-                await addDoc(orderCollection, order);
                 await axios.post('https://typescript-with-backend.onrender.com/api/order/createOrder',{
                     email: user?.email,
                     orderAmount: order.amount,
