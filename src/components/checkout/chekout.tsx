@@ -32,7 +32,7 @@ const Checkout = () => {
 
 
     type Order = {
-        mail: string | null | undefined,
+        email: string | null | undefined,
         firstName: string,
         lastName: string,
         address: string,
@@ -46,7 +46,7 @@ const Checkout = () => {
     }
 
     const [order, setOrder] = useState<Order>({
-        mail: user?.email,
+        email: user?.email,
         firstName: '',
         lastName: '',
         address: '',
